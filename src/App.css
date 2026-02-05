@@ -1,0 +1,108 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.required {
+  color: red;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-button {
+  background-color: #007bff;
+  color: white;
+  width: 100%;
+}
+
+.confirm-button:hover {
+  background-color: #0056b3;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.back-button {
+  background-color: #6c757d;
+  color: white;
+  flex: 1;
+}
+
+.back-button:hover {
+  background-color: #545b62;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: white;
+  flex: 1;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.confirm-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.confirm-item label {
+  color: #666;
+  font-size: 14px;
+}
+
+.confirm-item p {
+  margin: 5px 0 0 0;
+  white-space: pre-wrap;
+}
