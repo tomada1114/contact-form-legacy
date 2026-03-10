@@ -1,10 +1,6 @@
 import { useState } from 'react';
 import './App.css';
 
-// 問い合わせフォーム - レガシーコード
-// 注意: このコードは意図的に「改善の余地がある」状態で書かれています
-// 第6章のハンズオンで、Claude Codeを使って改善していきます
-
 function App() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
