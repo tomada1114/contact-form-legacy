@@ -71,7 +71,7 @@ function App() {
         <h1>送信完了</h1>
         <p>お問い合わせありがとうございます。</p>
         <p>内容を確認の上、担当者よりご連絡いたします。</p>
-        <button onClick={() => {
+        <button className="confirm-button" style={{ marginTop: '20px' }} onClick={() => {
           setName('');
           setEmail('');
           setMessage('');
